@@ -43,12 +43,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="jumbotron">
-          <h1 className="App-title">
+        <header className="jumbotron-display-4">
+          <h1 className="text-center text-success">
             Rick and Morty Memory Game
           </h1>
-          <p className="App-intro">
-            Don't click the same image twice!
+          <hr className="bg-success"/>
+          <p className="text-center text-success"><b>
+          The reason anyone would, which they can't, is because they could, which they can't - Rick Sanchez 
+          </b>
+          </p>
+          <p className="text-center text-success">
+           Can you win the game? Don't click on the same gif twice!
           </p>
         </header>
         <Score total={this.state.score}
