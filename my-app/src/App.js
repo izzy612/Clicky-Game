@@ -18,7 +18,7 @@ class App extends Component {
   shuffleScoreCard = id => {
     let clickedRickMortyIds = this.state.clickedRickMortyIds;
 
-    if (clickedRickMortyIds.include(id)) {
+    if (clickedRickMortyIds.includes(id)) {
       this.setState({ clickedRickMortyIds: [], score: 0, status: "And that's the waaaaaayyyyy the news goes! Game Over" });
       return;
     } else {
@@ -28,10 +28,10 @@ class App extends Component {
         this.setState({ score: 5, status: "I like what you got. Good job! You Won", clickedRickMortyIds: [] });
         return;
       }
-      this.setState({ RickMorty, clickedRickMortyIds, score: clickedRickMortyIds.legth, status: " " });
+      this.setState({ RickMorty, clickedRickMortyIds, score: clickedRickMortyIds.length, status: " " });
 
-      for (let i = RickMorty.legth - 1; i > 0; i--) {
-        let j = Math.floor(Math.radom() * (i + 1));
+      for (let i = RickMorty.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
         [RickMorty[i], RickMorty[j]] = [RickMorty[j], RickMorty[i]];
       }
 
@@ -40,7 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="jumbotron">
           <h1 className="App-title">
             Rick and Morty Memory Game
           </h1>
