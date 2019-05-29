@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Rick Sanchez",
+    "image": "https://www.buzzsprout.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWJuQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4663f02fc138b3760e6cae3190583fcba3325bb8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9VWTI5dFltbHVaVjl2Y0hScGIyNXpld282QzNKbGMybDZaVWtpRHpFME1EQjRNVFF3TUY0R09nWkZWRG9NWjNKaGRtbDBlVWtpQzJObGJuUmxjZ1k3QjFRNkMyVjRkR1Z1ZEVraURqRTBNREI0TVRRd01BWTdCMVE2REhGMVlXeHBkSGxwVlRvUFkyOXNiM0p6Y0dGalpVa2lDWE5TUjBJR093ZFUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--62cccdad7c2145af9102d69a13c480276ec82e2e/rickposter.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Morty Smith",
+    "image": "https://pbs.twimg.com/media/DTFOf3rUMAAdLTL.jpg:large"
+   
+  },
+  {
+    "id": 3,
+    "name": "Summer Smith",
+    "image": "https://www.shadowlordinc.com/characters/Rick_and_Morty/Summer_Smith.jpg"
+   
+  },
+  {
+    "id": 4,
+    "name": "Beth Smith",
+    "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/entertainment/59f1f9b81377c316fe000003.png"
+    
+  },
+  {
+    "id": 5,
+    "name": "Jerry Smith",
+    "image": "https://fsmedia.imgix.net/cb/e4/66/3a/fd47/4d4e/b04c/420fafd123b9/jerry-smith-has-a-troubled-backstory-we-dont-fully-comprehend-on-rick-and-morty.png?rect=231%2C0%2C1449%2C1088&auto=format%2Ccompress&dpr=2&w=1200"
+  },
+  {
+    "id": 6,
+    "name": "Squanchy",
+    "image": "https://f4.bcbits.com/img/0010067948_20.jpg"
+  },
+  {
+    "id": 7,
+    "name": "King Flippy Nips",
+    "image": "https://vignette.wikia.nocookie.net/villains/images/6/62/King_Flippynips.png/revision/latest?cb=20170901221652"
+    
+  },
+  {
+    "id": 8,
+    "name": "Mr. Poopybutthole",
+    "image": "https://pbs.twimg.com/profile_images/846806420708192256/11NYC3vZ_400x400.jpg"
+    
+  },
+  {
+    "id": 9,
+    "name": "Evil Morty",
+    "image": "https://pbs.twimg.com/profile_images/869610508051034113/-b8kGysH_400x400.jpg"
+    
+  },
+  {
+    "id": 10,
+    "name": "Birdperson",
+    "image": "https://65.media.tumblr.com/a214cb9e29582d60e6a8721b1b753c40/tumblr_nvrekwfmPm1us2kvdo1_1280.png"
+  },
+  {
+    "id": 11,
+    "name": "Snuffles",
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/7/70/Snuffles-helmet.jpg/revision/latest?cb=20131212193614"
+  },
+  {
+    "id": 12,
+    "name": "Tammy",
+    "image": "https://vignette.wikia.nocookie.net/villains/images/4/4c/Tammy_drunk.png/revision/latest?cb=20161122025045"
+  }
+]
