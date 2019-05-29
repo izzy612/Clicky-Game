@@ -11,7 +11,7 @@ class App extends Component {
     RickMorty,
     clickedRickMortyIds: [],
     score: 0,
-    goal: 8,
+    goal: 10,
     status: ""
   };
 
@@ -20,12 +20,15 @@ class App extends Component {
 
     if (clickedRickMortyIds.includes(id)) {
       this.setState({ clickedRickMortyIds: [], score: 0, status: "And that's the waaaaaayyyyy the news goes! Game Over" });
+
+      console.log("GAMEOVER");
       return;
     } else {
       clickedRickMortyIds.push(id)
 
-      if (clickedRickMortyIds.length === 5) {
-        this.setState({ score: 5, status: "I like what you got. Good job! You Won", clickedRickMortyIds: [] });
+      if (clickedRickMortyIds.length === 10) {
+        this.setState({ score: 10, status: "I like what you got. Good job! You Won", clickedRickMortyIds: [] });
+        console.log("YOU-WON")
         return;
       }
       this.setState({ RickMorty, clickedRickMortyIds, score: clickedRickMortyIds.length, status: " " });
@@ -49,7 +52,7 @@ class App extends Component {
           </p>
         </header>
         <Score total={this.state.score}
-          goal={5}
+          goal={10}
           status={this.state.status}
         />
         <Wrapper>
