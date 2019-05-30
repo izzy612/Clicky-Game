@@ -1,8 +1,10 @@
-{ "homepage": "https://izzy612.github.io/Clicky-Game",
+{
+  "homepage": "https://izzy612.github.io/Clicky-Game",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^2.2.7",

@@ -56,6 +56,7 @@ class App extends Component {
            Can you win the game? Don't click on the same gif twice!
           </p>
         </header>
+        <div className="body">
         <Score total={this.state.score}
           goal={10}
           status={this.state.status}
@@ -70,7 +71,8 @@ class App extends Component {
             />
           ))}
         </Wrapper>
-      </div>
+        </div>
+        </div>
     )
   }
 }
