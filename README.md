@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ https://izzy612.github.io/Clicky-Game/.
 
 ## Available Scripts
 
