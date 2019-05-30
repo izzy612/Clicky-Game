@@ -1,4 +1,4 @@
- https://izzy612.github.io/Clicky-Game/.
+
 
 ## Available Scripts
 
