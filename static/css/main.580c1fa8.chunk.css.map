@@ -1,1 +1,0 @@
-{"version":3,"sources":["Wrapper.css","App.css"],"names":[],"mappings":"AAAA,SAEE,YAAa,CACb,YAGF,CCNA,KACE,qBACF","file":"main.580c1fa8.chunk.css","sourcesContent":[".wrapper {\n  \n  height: 200px;\n  padding: 70px;\n  \n  \n}",".App {\n  background-color: black;\n}"]}
