@@ -1,8 +1,13 @@
 
 
-## Available Scripts
+## Rick and Morty Clicky Game 
 
-In the project directory, you can run:
+Test your memory.
+
+Click on each Rick and Morty gif 10 times to win the game. But don't click on a character twice, or it's game over for you!
+
+
+
 
 ### `npm start`
 
